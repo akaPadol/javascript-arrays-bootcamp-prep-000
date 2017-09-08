@@ -8,8 +8,8 @@ function addElementToBeginningOfArray(arrays,element){
   result=[element, ...arrays]
   return result
 }
-function destructivelyAddElementToBeginningOfArray(arrays,element){
-  arrays.unshift(element)
+function destructivelyAddElementToBeginningOfArray(array,element){
+  array.unshift(element)
 }
 function addElementToEndOfArray(arrays,element){
   var result = new Array()
